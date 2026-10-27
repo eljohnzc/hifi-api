@@ -6,9 +6,6 @@
 
 `hifi-api` is forked from the original project [sachinsenal0x64/hifi](https://github.com/sachinsenal0x64/hifi).
 
-> [!WARNING]
-> Tidal has begun blocking accounts en masse starting from around now - not only users using this API but also other providers such as lucide.to. There is currently no solution for this - this includes homelab users who don't expose their API to the Internet. **UPDATE:** you can decrease and basically nullify the risk of your account getting banned by sending one request for a track at a time from one IP at a time (and ideally avoid switching IPs too). This has been implemented in the API in the form of a queue.
-
 ## Setup
 
 Run `pip install -r requirements.txt` in `tidal_auth/`, then run `tidal_auth/tidal_auth.py` and follow the instructions. The script creates/updates `token.json`.
